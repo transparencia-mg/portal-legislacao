@@ -1,0 +1,42 @@
+{
+  "name": "legislacao",
+  "owner_org": "",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "legislacao",
+      "path": "data/legislacao.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "tema",
+            "type": "string"
+          },
+          {
+            "name": "legislacao",
+            "type": "string"
+          },
+          {
+            "name": "descricao",
+            "type": "string"
+          },
+          {
+            "name": "link",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Legislacao"
+}
