@@ -1,0 +1,81 @@
+{
+  "version": "4.16.6",
+  "time": 0.021,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "legislacao",
+        "path": "data/legislacao.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "tema",
+              "type": "string"
+            },
+            {
+              "name": "legislacao",
+              "type": "string"
+            },
+            {
+              "name": "descricao",
+              "type": "string"
+            },
+            {
+              "name": "link",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "9d8c65c81e88c62819f5b166a838cd82",
+          "bytes": 7671,
+          "fields": 4,
+          "rows": 23
+        }
+      },
+      "time": 0.012,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 1
+  },
+  "valid": true
+}
