@@ -257,11 +257,6 @@
                     <i class="material-icons">menu_book</i> Acervo Legislativo
                 </button>
             </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="temas-tab" data-bs-toggle="tab" data-bs-target="#temas" type="button" role="tab">
-                    <i class="material-icons">topic</i> Visão por Tema
-                </button>
-            </li>
         </ul>
     </div>
 
@@ -359,36 +354,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- ==================== ABA 2: VISÃO POR TEMA (cards e gráfico) ==================== -->
-        <div class="tab-pane fade" id="temas" role="tabpanel">
-            <!-- cards resumo por tema -->
-            <div class="row mb-4" id="cardsTemas"></div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="chart-container bg-white p-3 rounded-3 shadow-sm h-100">
-                        <h5 class="chart-title mb-3"><i class="material-icons me-2" style="color:var(--accent-red);">pie_chart</i> Distribuição por Tema</h5>
-                        <div class="chart-wrapper" style="height:260px;">
-                            <canvas id="chartTemas"></canvas>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="chart-container bg-white p-3 rounded-3 shadow-sm h-100">
-                        <h5 class="chart-title mb-3"><i class="material-icons me-2" style="color:var(--accent-red);">view_list</i> Quantidade de normas por tema</h5>
-                        <div style="max-height:260px; overflow-y:auto;">
-                            <table class="table table-sm table-borderless">
-                                <thead><tr><th>Tema</th><th class="text-end">Normas</th></tr></thead>
-                                <tbody id="tabelaContagemTemas"></tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Loading overlay (opcional) -->
 <div class="loading-overlay" id="loadingOverlay" style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(255,255,255,0.9); display:none; justify-content:center; align-items:center; z-index:9999;">
